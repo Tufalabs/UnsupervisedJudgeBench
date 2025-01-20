@@ -1,19 +1,19 @@
 {
   "judge_type": "orm",
-  "model_name": "Qwen/QVQ-72B-Preview",
+  "model_name": "gpt-4o",
   "num_votes": null,
   "require_unanimous": null,
   "metrics": {
-    "accuracy": 0.46,
-    "precision": 0.8888888888888888,
-    "recall": 0.13114754098360656,
-    "f1_score": 0.2285714285714286,
-    "false_positive_rate": 0.02564102564102564,
+    "accuracy": 0.66,
+    "precision": 0.6626506024096386,
+    "recall": 0.9016393442622951,
+    "f1_score": 0.7638888888888888,
+    "false_positive_rate": 0.717948717948718,
     "confusion_matrix": {
-      "true_positives": 8,
-      "true_negatives": 38,
-      "false_positives": 1,
-      "false_negatives": 53
+      "true_positives": 55,
+      "true_negatives": 11,
+      "false_positives": 28,
+      "false_negatives": 6
     }
   }
 }

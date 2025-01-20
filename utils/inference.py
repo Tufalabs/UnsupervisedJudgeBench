@@ -42,7 +42,6 @@ deepinfra_client = AsyncOpenAI(
 ) if deepinfra_api_key else None
 
 async def generate_text(model: str, prompt: str, max_tokens: int = 8000, temperature: float = 0) -> str:
-    print(f"Generating text with model: {model}")
     """
     Asynchronously generate text using various AI models.
     

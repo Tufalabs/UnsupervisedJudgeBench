@@ -8,7 +8,8 @@ from collections import defaultdict
 from tqdm import tqdm
 
 # ============ CONFIGURATION ============
-JUDGE_TYPE = "consensus"  # Options: "orm", "prm", "consensus"
+NUM_SAMPLES = 100  # Number of samples to evaluate
+JUDGE_TYPE = "orm"  # Options: "orm", "prm", "consensus"
 MODEL_NAME = "gpt-4o"
 # MODEL_NAME = "Qwen/QVQ-72B-Preview"
 # To evaluate all judges
