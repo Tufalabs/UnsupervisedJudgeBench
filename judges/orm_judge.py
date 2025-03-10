@@ -40,7 +40,10 @@ I want you to first reason through if the solution is correct. Then output your 
 <MARK>1</MARK> for correct solutions
 <MARK>0</MARK> for incorrect solutions
 
-Follow your mark with a detailed explanation of your reasoning."""
+Follow your mark with a detailed explanation of your reasoning.
+
+To verify the solution try taking the derivative of the solution and see if it matches the original question.
+"""
 
 
     evaluation = await generate_text(

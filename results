@@ -1,0 +1,21 @@
+
+
+***ORM ***
+
+Evaluation Metrics:
+------------------
+Total Samples: 100
+Accuracy: 0.640
+Precision: 0.667
+Recall: 0.820
+F1 Score: 0.735
+False Positive Rate: 0.641
+
+Confusion Matrix:
+---------------
+True Positives: 50
+True Negatives: 14
+False Positives: 25
+False Negatives: 11
+
+***PRM ***

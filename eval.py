@@ -8,18 +8,18 @@ from collections import defaultdict
 from tqdm import tqdm
 
 # ============ CONFIGURATION ============
-NUM_SAMPLES = 100  # Number of samples to evaluate
+NUM_SAMPLES = 300  # Number of samples to evaluate
 JUDGE_TYPE = "orm"  # Options: "orm", "prm", "consensus"
-MODEL_NAME = "gpt-4o"
+MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
 # MODEL_NAME = "Qwen/QVQ-72B-Preview"
 # To evaluate all judges
 # JUDGE_TYPES = ["orm", "prm", "consensus"]
 
 # Batch settings
-MAX_BATCH_SIZE = 100  # Maximum concurrent evaluations
+MAX_BATCH_SIZE = 105  # Maximum concurrent evaluations
 
 # Consensus judge settings (only used if JUDGE_TYPE = "consensus")
-NUM_VOTES = 3
+NUM_VOTES = 1
 REQUIRE_UNANIMOUS = False
 # =====================================
 
