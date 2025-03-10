@@ -14,3 +14,4 @@ Can adjust eval.py to change the judge type, model name, etc.
 Can create new judges in judges/ folder.
 
 
+# LLMJudge
